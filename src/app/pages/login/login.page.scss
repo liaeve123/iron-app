@@ -1,0 +1,11 @@
+/* Global Styles */
+
+ion-button[color="dark"] {
+  text-transform: initial;
+}
+ion-button[color="primary"] {
+  --color: #fff;
+}
+ion-content::part(background) {
+  background: #0054e9;
+}

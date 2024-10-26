@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+     <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>investment</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <img src="https://chartexpo.com/blog/wp-content/uploads/2022/07/year-over-year-growth-chart.jpg" alt="Growth Chart" class="chart-image">
+
+  <ion-card class="investment-card">
+    <ion-card-content>
+      <p class="date-range">From <span>19-Feb-2024</span> To <span>19-Feb-2025</span></p>
+      <p class="section-title">Investment Progress</p>
+      <p class="investment-detail">Total Investment: <span class="amount">$200,000.00</span></p>
+      <p class="investment-detail">Profit Made: <span class="amount profit">$2,000.00</span></p>
+      <p class="investment-detail">Total Balance: <span class="amount total-balance">$202,000.00</span></p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list class="notes-list">
+    <ion-item lines="inset">
+      <ion-textarea placeholder="Enter your notes here..." class="notes-textarea"></ion-textarea>
+    </ion-item>
+    <ion-button color="primary" expand="full" class="create-plan-btn">
+      CREATE A PLAN
+    </ion-button>
+  </ion-list>
+</ion-content>
+

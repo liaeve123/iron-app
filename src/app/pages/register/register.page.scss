@@ -1,0 +1,52 @@
+/* Global Styles */
+
+ion-button[color="dark"] {
+  text-transform: initial;
+}
+ion-button[color="primary"] {
+  --color: #fff;
+}
+ion-content::part(background) {
+  background: #0054e9;
+}
+
+
+ion-content {
+  --background: #f4f4f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aim-card {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.aim-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+ion-item {
+  --background: #fafafa;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+ion-radio[color="primary"] {
+  --color-checked: #0054e9; /* Primary color for selected radio */
+}
+
+ion-label {
+  font-size: 1rem;
+  color: #555;
+}
